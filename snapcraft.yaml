@@ -1,5 +1,5 @@
 name: Tic Tac Fun
-version: 1.0
+version: "1.0"
 # The vendor for the snap (replace 'Vendor <email@example.com>')
 vendor: whitehacker20166@gmail.com
 summary: GNU Game,Fun Tic Tac Toc
