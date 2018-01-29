@@ -10,6 +10,8 @@ from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.popup import Popup
+from kivy.factory import FactoryException
+
 
 pdata = ""
 App.title = "Tic Tac Fun "
@@ -474,8 +476,8 @@ class MainLayout(BoxLayout):
             sound.play()
             lista.clear(), listb.clear(), listc.clear(), listd.clear(), liste.clear(), listf.clear(), listg.clear(), listh.clear()
 
-        print(pdata)
-        print(lista,listb,listc,listd,liste,listf,listg,listh)
+        #print(pdata)
+        #print(lista,listb,listc,listd,liste,listf,listg,listh)
 
     def keyspop(self):
         box = BoxLayout(orientation="vertical")
