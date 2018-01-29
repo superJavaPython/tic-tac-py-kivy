@@ -1,0 +1,178 @@
+<MainLayout>
+    orientation:"vertical"
+    background:"images/bk2.jpg"
+    ActionBar:
+        ActionView:
+            background_image:"images/im2.png"
+
+            ActionPrevious:
+
+                app_icon: "images/gamepad3.png"
+                title: 'Tic Tac Toc'
+                color: [1,1,0,1]
+                text_size: 20
+                bold:True
+                with_previous: False
+
+                ActionButton:
+                    text:"Exit"
+                    icon:"images/menu_exit.png"
+                    color: [1,0,0,0]
+                    bold:True
+                    on_press:app.stop()
+
+                ActionButton:
+                    icon:"images/regame.png"
+                    text: 'Another Game'
+                    bold:True
+                    id: resetgame
+                    color: [0,.8,1,1]
+
+                ActionButton:
+
+                    text: 'Settings'
+                    icon:"images/menu_pref.png"
+                    on_press:app.open_settings()
+                    color: [0,.8,1,1]
+
+            ActionOverflow:
+                overflow_image:"images/menu_list.png"
+
+                ActionButton:
+                    text: 'About'
+                    mipmap:True
+                    icon:"images/menu_pref.png"
+                    color: [0,.8,1,1]
+                    on_press:root.author()
+
+                ActionButton:
+                    text: 'Special Keys'
+                    on_press:root.keyspop()
+                    color: [0,.8,1,1]
+
+                ActionButton:
+                    text: 'Control'
+                    on_press:root.control()
+                    color: [0,.8,1,1]
+
+    Label:
+        text:"player1"
+        id:lb
+        markup:True
+        font_size:60
+
+
+    BoxLayout:
+        spacing:10
+        padding:"10dp"
+        Button:
+            text:""
+            font_size:60
+            background_color : [0, 0, .8, .5]
+            markup:True
+            bold:True
+            id:click1
+
+
+
+        Button:
+            text:""
+            font_size:60
+            background_color : [0, 0, .8, .5]
+            markup:True
+            bold:True
+            id:click2
+
+
+        Button
+            text:""
+            font_size:60
+            background_color : [0, 0, .8, .5]
+            markup:True
+            bold:True
+
+
+            id:click3
+
+
+
+    BoxLayout:
+        spacing:10
+        padding:"10dp"
+        Button:
+            text:""
+            font_size:60
+            background_color : [0, 0, .8, .5]
+            markup:True
+            bold:True
+
+
+            id:click4
+
+        Button:
+            text:""
+            font_size:60
+            background_color : [0, 0, .8, .5]
+            markup:True
+            bold:True
+
+
+            id:click5
+
+        Button
+            text:""
+            font_size:60
+            background_color : [0, 0, .8, .5]
+            markup:True
+            bold:True
+
+
+            id:click6
+
+
+    BoxLayout:
+        spacing:10
+        padding:"10dp"
+        Button:
+            text:""
+            font_size:60
+            background_color : [0, 0, .8, .5]
+            markup:True
+            bold:True
+
+
+            id:click7
+
+        Button:
+            text:""
+            font_size:60
+            background_color : [0, 0, .8, .5]
+            markup:True
+            bold:True
+
+
+            id:click8
+
+        Button
+            text:""
+            font_size:60
+            background_color : [0, 0, .8, .5]
+            markup:True
+            bold:True
+
+
+            id:click9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
