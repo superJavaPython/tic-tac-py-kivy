@@ -1,0 +1,7 @@
+name: Fun Tic Tac Toc
+version: 1.0
+# The vendor for the snap (replace 'Vendor <email@example.com>')
+vendor: whitehacker20166@gmail.com
+summary: GNU Game,Fun Tic Tac Toc
+description: Tic Tac game support joysticks and two players 
+icon: images/gamepad3.png
