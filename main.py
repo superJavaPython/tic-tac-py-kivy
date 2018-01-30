@@ -14,7 +14,7 @@ from kivy.factory import FactoryException
 
 
 pdata = ""
-App.title = "Tic Tac Fun "
+App.title = "tic-tac-py-kivy"
 
 standx = ["x", "x", "x"]
 stando = ["o", "o", "o"]
