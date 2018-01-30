@@ -4,4 +4,19 @@ version: "1.0"
 vendor: whitehacker20166@gmail.com
 summary: GNU Game,Fun Tic Tac Toc
 description: Tic Tac game support joysticks and two players 
+grade: devel
+confinement: devmode
 icon: images/gamepad3.png
+
+apps:
+  tic-tac-py-kivy:
+    command: bin/tic-tac-py-kivy
+    plugs: [home]
+
+parts:
+  tic-tac-py-kivy:
+    plugin: python
+    python-version: python3
+    source: .
+requirements: requirements.txt
+
